@@ -782,8 +782,3 @@ const MEDIA_RETRY_STATUS_MAP = {
 	[proto.MediaRetryNotification.ResultType.NOT_FOUND]: 404,
 	[proto.MediaRetryNotification.ResultType.GENERAL_ERROR]: 418,
 } as const
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function __importStar(arg0: any): any {
-	throw new Error('Function not implemented.')
-}
